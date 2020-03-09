@@ -1,0 +1,233 @@
+*
+body, html{ 
+	margin: 0;
+	padding: 0;
+    background-color: #F8E9A5;
+ }
+
+
+header 
+ { 
+    height: 250px; 
+    width: 100%; 
+}
+
+hr{
+    border: 1px solid #4ca1af; 
+    width: 80%;
+}
+
+.menu 
+{  
+    margin-top: 30px; 
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: center;
+    z-index: 5;
+}
+    
+
+.menu li
+{
+    display: inline-block ; 
+}
+
+.menu li a
+{
+    color: #000; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin-top: 10px; 
+    font-family: "Courier New", Courier, monospace; 
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+
+
+.menu li a:hover {
+    border: 1px solid white; 
+}
+
+
+.title {
+    display: block;
+    vertical-align: center;
+    width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+    padding: 300px, 0px, 0px, 0px;
+    align-content: center;
+    /*z-index: 0;*/
+    
+}
+
+
+
+h1 {
+     color: #000;
+    font-family: "Courier New", Courier, monospace; 
+    font-weight: normal;
+    margin: 0px 0px; 
+    font-size: 60px; 
+    text-align: center;
+}
+
+h2{
+    color: #777;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-family: "Kalam";
+    margin: 0px 0px; 
+    font-size: 15px; 
+    text-align: center; 
+    font-style: oblique;
+}
+
+footer{
+    text-align: center;
+    background: #F8E9A5;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #000;
+    height: 40px;
+    vertical-align:middle;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif; 
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: middle;
+}
+
+
+
+/*CONTACT FORM STYLING*/ 
+.container{ 
+    width: 100%; 
+    max-width: 680px;
+    margin: 0  auto;
+    padding:20px;
+    box-sizing: border-box; 
+
+}
+
+.content{
+    text-align: center;
+    font-family: "system-ui";
+}
+
+
+.content h3{
+    /*text-transform: uppercase;*/
+    font-family: "system-ui";
+    text-decoration: none;
+    color: #000; 
+    letter-spacing: 5px; 
+    margin-bottom: 10px;
+}
+
+.content p{
+    font-style: oblique;
+    padding: 0; 
+    margin-bottom: 20px; 
+    margin-top: 0; 
+    
+}
+
+.form{
+    font-family: "system-ui";
+    width:100%;
+    padding-bottom: 25px; 
+    font-size: 12px;
+    
+}
+
+
+.top-form,.middle-form,.bottom-form{
+    width: 50%
+    min-height: 65px; 
+    margin:10px 0; 
+}
+
+.form input[type = "text"], .form textarea{
+    padding: 15px 10px; 
+    box-sizing: border-box; 
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 10px; 
+    outline: none; 
+    transition: all 0.2s ease; 
+    */
+}
+
+/* for focus when on current input */
+.form input:focus, .form textarea:focus{
+    border-color:#4ca1af; 
+   
+}
+
+.form .label{
+    margin-bottom: 5px; 
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+
+.top-form .inner-form{
+    width: 30%; 
+    float: left;
+    margin-right: 5%;
+}
+
+.top-form .inner-form:last-child{
+    margin-right: 0; 
+}
+
+
+.middle-form{
+    clear: both;
+}
+
+.bottom-form textarea{
+    height: 120px; 
+}
+
+
+button{
+    background: #000; 
+    width: 150px; 
+    padding: 10px 0; 
+    border-radius: 2px; 
+    text-align: center; 
+    text-transform: uppercase;
+    color: #fff; 
+    letter-spacing: 5px; 
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:500px){
+    .title{
+        width:400px; 
+    }
+    .container{
+        margin: 25px auto 0; 
+    }
+    
+    .top-form .inner-form{
+        width:100%;
+        margin: 5px 0; 
+    }
+    
+   
+}
+
+
+
+
+
